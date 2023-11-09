@@ -1,9 +1,10 @@
 # [2023 대구를 빛내는 SW 해커톤] 
 
-![Header](http://capsule-render.vercel.app/api?type=rect&color=auto&height=200&section=header&text=Team%20Dr.%20Yak&fontSize=80&animation=twinkling)
+![Header](http://capsule-render.vercel.app/api?type=rect&color=auto&height=200&section=header&text=Team%20Dr.%20Yak&fontSize=80&animation=twinkling&fontAlign=)
 
 ## 1. 주제
-- 약박사: AI 기반 노년층 대상 Drug Assistant
+    약박사: 
+        AI 기반 노년층 대상 Drug Assistant
 
 
 ## 2. 핵심 내용
@@ -14,7 +15,7 @@
     - __OCR(Optical Character Recognition)__ 모델과 __TTS(Text-To-Speak)__ 를 활용해 사용자는 약의 사진을 _카메라로 찍어 입력하고_, 해당 약에 대한 이름과 복용 방법에 대한 상세 정보를 획득 할 수 있음
 
 
-    - __기술 스택__
+    - 기술 스택
 
         <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> <a href="https://www.w3schools.com/html/"><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a> <a href="https://javascript.info/"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a> <a href="https://flask-docs-kr.readthedocs.io/ko/latest/quickstart.html"><img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white"></a> <a href="https://www.w3schools.com/css/"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>
 
@@ -24,7 +25,7 @@
 
 ***
 
-- 기술 구현 및 기능 프로세스 설명
+- __기술 구현 및 기능 프로세스 설명__
 
     ### __Framework__
 
@@ -32,15 +33,15 @@
 
     ### __Process__
 
-    1. 촬영된 사진을 OCR 인공지능 기술을 통해 뒷면의 모든 텍스트 인식
+1. 촬영된 사진을 OCR 인공지능 기술을 통해 뒷면의 모든 텍스트 인식
 
-    2. 인식된 텍스트 뭉치에서 Google Bard 자연어처리 모델을 이용해 약제 이름 추출
+2. 인식된 텍스트 뭉치에서 Google Bard 자연어처리 모델을 이용해 약제 이름 추출
 
-    3. 약제 정보 데이터베이스에서 추출된 텍스트와 유사도가 높은 약제 검색
+3. 약제 정보 데이터베이스에서 추출된 텍스트와 유사도가 높은 약제 검색
 
-    4. 데이터베이스에 있는 약의 이름, 복용 방법, 주의 사항을 TTS 기술을 통해 음성으로 안내
+4. 데이터베이스에 있는 약의 이름, 복용 방법, 주의 사항을 TTS 기술을 통해 음성으로 안내
 
-    5. 수집된 이미지로 구축한 데이터셋을 통해 알약에 대한 분류기(Deep Learning based - Classification model) 학습
+5. 수집된 이미지로 구축한 데이터셋을 통해 알약에 대한 분류기(Deep Learning based - Classification model) 학습
 
 
 
