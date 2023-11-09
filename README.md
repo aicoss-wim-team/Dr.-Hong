@@ -19,7 +19,7 @@
 
         <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> <a href="https://www.w3schools.com/html/"><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a> <a href="https://javascript.info/"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a> <a href="https://flask-docs-kr.readthedocs.io/ko/latest/quickstart.html"><img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white"></a> <a href="https://www.w3schools.com/css/"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>
 
-    - 예상 UI Prototype
+    #### 예상 UI Prototype
 
         <a href="./Images/figure1.png"><img src="./Images/figure1.png"></a>
 
@@ -58,9 +58,9 @@
 
 3. **노년층의 의약품 인식 문제점**
 
-    - 의약품 포장의 _작은 글씨로 인한 정보 인식_ 어려움
+    - 의약품 포장의 작은 글씨로 인한 정보 인식 어려움
 
-    - 또한, 노년층은 _디지털 정보에 접근하는 데 있어 장벽을 느낄 수_ 있어서 약에 대한 올바른 정보를 얻기 어려울 수 있음
+    - 또한, 노년층은 디지털 정보에 접근하는 데 있어 장벽을 느낄 수 있어서 약에 대한 올바른 정보를 얻기 어려울 수 있음
 
 4. **알약 보관 방식**
 
@@ -69,7 +69,7 @@
     - 해당 보관함에 담은 상태로 알약이 어떤 기능을 위한 것인지 헷갈리는 상황이 생김
 
 
-        ### 보관 방식의 예시
+        #### 보관 방식의 예시
         <a href="./Images/figure3.png"><img src="./Images/figure3.png"></a>  
 
 ## 4. 사업화 방안 및 기대 효과
@@ -114,4 +114,4 @@
 
         - 노년층과 저시력자의 생활 품질 향상을 통한 사회적 책임 수행
 
-이런 방식으로 구축된 앱은 _**노년층의 의약품 복용 안전성과 편의성을 향상**_ 하는 동시에 _다양한 사업 모델을 통해 **경제적 이익**도 추구_ 할 수 있을 것임
+이런 방식으로 구축된 앱은 _**노년층의 의약품 복용 안전성과 편의성을 향상**_ 하는 동시에 다양한 사업 모델을 통해 _**경제적 이익**도 추구_ 할 수 있을 것임
