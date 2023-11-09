@@ -1,6 +1,6 @@
 # [2023 대구를 빛내는 SW 해커톤] 
 
-![Header] (http://capsule-render.vercel.app/api?type=rect&color=auto&height=150&section=header&text=Team%20Dr.%20Yak&fontSize=80&animation=twinkling)
+![Header](http://capsule-render.vercel.app/api?type=rect&color=auto&height=150&section=header&text=Team%20Dr.%20Yak&fontSize=80&animation=twinkling)
 
 ## 1. 주제
 - 약박사: AI 기반 노년층 대상 Drug Assistant
