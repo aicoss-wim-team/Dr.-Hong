@@ -21,7 +21,7 @@
 
     #### 예상 UI Prototype
 
-        <a href="./Images/figure1.png"><img src="./Images/figure1.png"></a>
+    <a href="./Images/figure1.png"><img src="./Images/figure1.png"></a>
 
 ***
 
