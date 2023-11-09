@@ -117,9 +117,9 @@
 이런 방식으로 구축된 앱은 _**노년층의 의약품 복용 안전성과 편의성을 향상**_ 하는 동시에 다양한 사업 모델을 통해 _**경제적 이익**도 추구_ 할 수 있을 것임
 
 ## 5. Contribute
-<center> We love your input!</center>
+<div align="center"> We love your input!</div>
 
 
-<center><a href="https://github.com/aicoss-wim-team/Dr.-Hong/graphs/contributors">
+<div align="center"><a href="https://github.com/aicoss-wim-team/Dr.-Hong/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=aicoss-wim-team/Dr.-Hong" />
-</a></center>
+</a></div>
