@@ -3,8 +3,8 @@
 ![Header](http://capsule-render.vercel.app/api?type=rect&color=auto&height=200&section=header&text=Team%20Dr.%20Yak&fontSize=80&fontAlignY=&animation=twinkling)
 
 ## 1. 주제
-    약박사: 
-        AI 기반 노년층 대상 Drug Assistant
+- __약박사 (Dr. YAk)__
+    - AI 기반 노년층 대상 Drug Assistant
 
 
 ## 2. 핵심 내용
