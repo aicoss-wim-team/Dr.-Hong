@@ -115,3 +115,11 @@
         - 노년층과 저시력자의 생활 품질 향상을 통한 사회적 책임 수행
 
 이런 방식으로 구축된 앱은 _**노년층의 의약품 복용 안전성과 편의성을 향상**_ 하는 동시에 다양한 사업 모델을 통해 _**경제적 이익**도 추구_ 할 수 있을 것임
+
+## 5. Contribute
+<center> We love your input!</center>
+
+
+<center><a href="https://github.com/aicoss-wim-team/Dr.-Hong/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aicoss-wim-team/Dr.-Hong" />
+</a></center>
