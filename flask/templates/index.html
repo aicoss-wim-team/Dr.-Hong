@@ -7,7 +7,7 @@
 <title>사진넣어라</title>
 </head>
   <body>
-    <div>
+    <div id = "body">
       <div class="iphone-box">
         <h3>Dr Yack</h3>
         <div class = "upload_pic">
@@ -21,10 +21,27 @@
                 </div>
                 <input type="file" id="file" name = 'image'>
             </label>
-              <input id = 'upload_btn' type="submit" value="약 정보 확인">
+              <input id = 'upload_btn' type="submit" value="약 정보 확인" onclick="loading()">
           </form>
         </div>
       </div>
     </div>
+    <div id = 'loader'>
+      <h1>사진 분석 중...</h1>
+      <div class="loadingio-spinner-spinner-977el9wwy2v"><div class="ldio-4j5ay0xf86g">
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div></div>
+    </div>
   </body>
+  <script>
+    function loading(){
+      // event.preventDefault();
+      const loader = document.getElementById('loader');
+      const body = document.getElementById("body");
+      console.log(loader);
+      body.style.display = 'none';
+      loader.style.display = 'block';
+
+    };
+  </script>
 </html>

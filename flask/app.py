@@ -24,7 +24,7 @@ def upload():
     
     # appear loading div
     #  model's result will set heres
-    time.sleep(2) # let's say this is the model's inference
+    time.sleep(5) # let's say this is the model's inference
     # disappear loading div
     result_name, result_type  = "타이레놀", "각성제"
     # return redirect(url_for('result', result_name = result_name, result_type = result_type))
