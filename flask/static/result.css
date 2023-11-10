@@ -56,6 +56,16 @@
       font-size: 40px;
  }
 
+.detail_name{
+     position: absolute; 
+     /* border : solid; */
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 20px;
+
+}
+
  .tts_box{
       position: absolute;
       /* border: solid; */
@@ -64,4 +74,8 @@
       top: 68%;
       left: 50%;
       transform: translate(-50%, -50%);
+ }
+
+ .result_name{
+     font-size: 25px;
  }

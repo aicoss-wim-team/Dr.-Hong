@@ -3,12 +3,11 @@ from flask import Flask, request, render_template, send_from_directory, url_for,
 # import chatGPT
 import tempfile
 import os
-
+import torch
+import time
 
 app = Flask(__name__)
 
-# 업로드된 파일을 저장할 디렉토리 설정
-# 프로젝트의 루트 디렉토리를 찾아 절대 경로로 설정합니다.
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 app.config['UPLOAD_FOLDER'] = os.path.join(BASE_DIR, 'static', 'uploads')
 
@@ -19,12 +18,27 @@ def form():
 
 @app.route('/upload', methods=['POST'])
 def upload():
-
     uploaded_file = request.files['image']
     print(uploaded_file)
     uploaded_file.save('static/uploads/uploaded_image.png')
     
-    return render_template('upload.html')
+    # appear loading div
+    #  model's result will set heres
+    time.sleep(2) # let's say this is the model's inference
+    # disappear loading div
+    result_name, result_type  = "타이레놀", "각성제"
+    # return redirect(url_for('result', result_name = result_name, result_type = result_type))
+    return render_template("result.html", result_name = result_name, result_type = result_type)
+
+
+# @app.route('/result', methods = ['GET', 'POST'])
+# def result():
+#     result_name = request.args.get('result_name')
+#     result_type = request.args.get('result_type')
+#     print(result_type, result_name)
+#     return render_template("result.html", result_name = result_name, result_type = result_type)
+    
+
 
 
 if __name__ == '__main__':
